@@ -28,22 +28,22 @@ speech_to_text = SpeechToTextV1(
 speech_to_text.set_service_url('https://gateway-lon.watsonplatform.net/speech-to-text/api')
 
 #Client details for Twitter API
-consumer_key = "pZb2PizxEsB1eyMcMtPKt0"
-consumer_secret = "MLAIqKyYVkdykZ6eibeoWcPOX56gOgfV0vkWIVzmKEVxGQ"
-access_key = "3046753945-qtQ26I5KlW9Ng1LmX44OxdbJTQ8vpcDBPBE"
-access_secret = "yxNsmJMzxB7WumR5u2HB9NYM5Cdftj3pRSwwaxQCTw"
+consumer_key = " " #generate key and enter here
+consumer_secret = " " #generate key and enter here
+access_key = " " #generate key and enter here
+access_secret = " " #generate key and enter here
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 
 #Client details Sentiment Analysis API service
-paralleldots.set_api_key("SLlVzk4on9gsErs1SUKzIAgotNmB33j7HcZT77Lo")
+paralleldots.set_api_key("  ") #generate key and enter here
 #Client details for Reddit API
-reddit = praw.Reddit(client_id = "bqa8w7IjEhQw",
-                         client_secret = "e-nSLf7A6gP1U4U4K15BoArM8",
-                         password= "thisisword",
-                         username="dotthrowaway123",
-                         user_agent="taining",)
+reddit = praw.Reddit(client_id = " ",
+                         client_secret = " ",
+                         password= " ",
+                         username=" ",
+                         user_agent=" ",)
 
 #Code for the main Window
 root=Tk()
